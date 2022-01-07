@@ -47,6 +47,7 @@ public class MvcConfig implements WebMvcConfigurer {
         registry.addViewController("/registrationReCaptchaV3.html");
         registry.addViewController("/logout.html");
         registry.addViewController("/homepage.html");
+        registry.addViewController("/management.html");
         registry.addViewController("/expiredAccount.html");
         registry.addViewController("/emailError.html");
         registry.addViewController("/home.html");
